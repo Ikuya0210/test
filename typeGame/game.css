@@ -1,0 +1,39 @@
+@charset"UTF-8";
+body{
+    margin:0;
+    width: auto;
+    background-color:whitesmoke;
+    color: olive;
+    text-align: center;
+    padding-top: 100px;
+}
+button{
+    margin-top: 3px;
+    color: #fff;
+    background: olivedrab;
+    border-radius: 100vh;
+}
+h1{
+    font-size: 70px;
+}
+
+#question_text{
+    font-size: 50px;
+}
+
+#form{
+    width: 300px;
+    height: 30px;
+    font-size:100%;
+}
+#yoko{
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    margin: 0 auto;
+}
+
+#timer_text, #seikai_text{
+    width:200;
+    text-align: center;
+}

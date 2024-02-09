@@ -1,0 +1,36 @@
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>タイピングゲーム</title>
+<link rel="stylesheet" href="game.css" type="text/css">
+</head>
+<body>
+    <div id ="title">
+        <h1>タイピングゲーム</h1>
+        <h2>エンターを押してね</h2>
+    </div>
+
+    <div id="game">
+        <h1 id="question_text">main</h1>
+        <input type="text" size="40" id="form" value="">
+        <button id="decide">Enter</button>
+        <div id="yoko">
+            <div>
+                <h2 id="timer_text">残り何秒？</h2>
+            </div>
+            <div>
+                <h2 id="seikai_text">正解してないよ</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id ="result">
+        <h1>Result</h1>
+        <h2 id="result_text">pppppppp</h2>
+    </div>
+    
+    <button id="retry">retry</button>
+
+    <script src="game.js"></script>
+</body>
+</html>
